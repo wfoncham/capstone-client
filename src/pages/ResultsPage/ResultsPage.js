@@ -40,8 +40,8 @@ function ResultsPage() {
 	return (
 		<div className="results">
 			<img className="results__logo" src={resultpic} alt="" />
-			<h1>Congratulations!</h1>
-			<p>
+			<h1 className="results__head">Congratulations!</h1>
+			<p className="results__words">
 				Based on your choice of gender, letter and region, your baby's name is
 			</p>
             <p className="results__name">{name}</p>

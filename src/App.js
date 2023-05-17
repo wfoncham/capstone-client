@@ -19,10 +19,16 @@ function App() {
 					<Route path="/signin" element={<SignInPage />} />
 					<Route path="/gender" element={<GenderPage />} />
 					<Route path="/letter" element={<LetterPage />} />
-          <Route path="/lettergirl" element={<GirlLetterPage />} />
-          <Route path="/lettersurprise" element={<SurpriseLetterPage />} />
-					<Route path="/continent/:gender/:letter" element={<ContinentPage />} />
-					<Route path="/results/:gender/:letter/:continent" element={<ResultsPage />} />
+					<Route path="/lettergirl" element={<GirlLetterPage />} />
+					<Route path="/lettersurprise" element={<SurpriseLetterPage />} />
+					<Route
+						path="/continent/:gender/:letter"
+						element={<ContinentPage />}
+					/>
+					<Route
+						path="/results/:gender/:letter/:continent"
+						element={<ResultsPage />}
+					/>
 				</Routes>
 			</BrowserRouter>
 		</div>
