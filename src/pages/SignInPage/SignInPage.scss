@@ -1,0 +1,56 @@
+.sign__logo {
+    height: 51vh;
+    width: 100%;
+}
+
+.sign__form {
+    margin-top: -5rem;
+}
+
+.sign__form--user {
+    font-size: 2rem;
+}
+
+.sign__form--password {
+    font-size: 2rem;
+}
+
+form {
+	font-weight: 600;
+	color: #afafaf;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+input {
+    height: 3rem;
+    width: 85%;
+    font-size: 19px;
+    border-radius: 18px;
+    border: none;
+    text-align: center;
+}
+
+.user__text {
+    padding-bottom: 5px;
+    padding-top: 1rem;
+}
+
+.pass__text {
+    padding-top: 1rem;
+    padding-bottom: 5px;
+}
+
+.sign__next {
+    padding-top: 3rem;
+}
+
+.sign__next--button {
+    height: 9vh;
+    width: 50%;
+    border-radius: 18px;
+    font-size: 45px;
+    border: none;
+    color: white;
+    background: #9dcce6;
+}

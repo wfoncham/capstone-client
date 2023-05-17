@@ -1,0 +1,85 @@
+.gender__header {
+    margin-bottom: -4rem;
+}
+
+.gender__header--picture {
+    height: 39vh;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.gender__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.gender__boy {
+    padding-bottom: 1rem;
+}
+
+.gender__girl {
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+
+.gender__surprise {
+    padding-top: 0rem;
+}
+
+.gender__boy--button {
+    height: 11vh;
+    font-size: 2rem;
+    width: 92%;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    background: #2db4fc;
+}
+
+.gender__girl--button {
+    height: 11vh;
+    font-size: 2rem;
+    width: 92%;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    background: #f123ac;
+}
+
+.gender__surprise--button {
+    height: 11vh;
+    font-size: 2rem;
+    width: 92%;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    background: #cdcecf;
+}
+
+.gender__next {
+    padding-top: 1.5rem;
+}
+
+.gender__next--button {
+    height: 5vh;
+    width: 50%;
+    border-radius: 18px;
+    font-size: 25px;
+    border: none;
+    color: white;
+    background: #9dcce6;
+}
+
+.sign__back {
+    padding-top: 1.5rem;
+}
+
+.sign__back--button {
+    height: 5vh;
+    width: 50%;
+    border-radius: 18px;
+    font-size: 25px;
+    border: none;
+    color: white;
+    background: #9dcce6;
+}

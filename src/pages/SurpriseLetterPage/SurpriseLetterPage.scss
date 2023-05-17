@@ -1,0 +1,67 @@
+.horizontal-scroll-container {
+	width: 100%;
+	overflow-x: scroll;
+    margin-top: -5rem;
+}
+
+.horizontal-scroll-content {
+	display: flex;
+	flex-direction: row;
+	padding: 16px;
+}
+
+.item__surprise {
+	flex-shrink: 0;
+	width: 18rem;
+	height: 16.5rem;
+	margin-right: 16px;
+	background-color: #c7c0c0;
+	font-size: 14rem;
+	color: white;
+	border-radius: 18px;
+    border: none;
+}
+
+.selected__surprise{
+    background: rgb(158, 161, 162);
+}
+.not-selected__surprise{
+    background: #c7c0c0;
+}
+
+.surprise__logo {
+	height: 39vh;
+	width: 100%;
+	padding-bottom: 1rem;
+}
+
+.surprise__next {
+	padding-top: 0.5rem;
+}
+
+.surprise__next--button {
+	height: 9vh;
+	width: 50%;
+	border-radius: 18px;
+	font-size: 45px;
+	border: none;
+	color: white;
+	background: #c7c0c0;
+    ;
+}
+
+.surprise__back {
+    padding-top: 1.5rem;
+}
+
+.surprise__back--button {
+    height: 8vh;
+    width: 59%;
+    border-radius: 18px;
+    font-size: 27px;
+    border: none;
+    text-align: center;
+    color: white;
+    background: #c7c0c0;
+    ;
+}

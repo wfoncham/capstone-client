@@ -1,0 +1,47 @@
+.continent__logo {
+    height: 39vh;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.continent__next {
+	padding-top: 1.5rem;
+}
+
+.continent__next--button {
+	height: 7vh;
+    width: 61%;
+    border-radius: 18px;
+    font-size: 32px;
+    border: none;
+    color: white;
+    background: #9dcce6;
+}
+
+.continent__back {
+    padding-top: 1.5rem;
+}
+
+.continent__back--button {
+    height: 8vh;
+    width: 59%;
+    border-radius: 18px;
+    font-size: 27px;
+    border: none;
+    text-align: center;
+    color: white;
+    background: #9dcce6;
+}
+
+.select__option {
+    font-size: 26px;
+    border: none;
+    background: #9dcce6;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+}
+
+.select__result {
+    font-size: 21px;
+}
