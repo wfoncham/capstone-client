@@ -1,7 +1,7 @@
 import resultpic from "../../assets/images/IMG_8273.png";
 import React,  { useEffect, useState } from "react";
 import "./ResultsPage.scss";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 function ResultsPage() {
 	const { gender, letter, continent } = useParams();
@@ -45,6 +45,11 @@ function ResultsPage() {
 				Based on your choice of gender, letter and region, your baby's name is
 			</p>
             <p className="results__name">{name}</p>
+			<Link to={"/signin"}>
+				<div className="results__back">
+					<button className="results__back--button">Start Over</button>
+				</div>
+			</Link>
 		</div>
 	);
 }
